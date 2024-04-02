@@ -1,0 +1,16 @@
+# Directories
+node_modules/
+coverage/
+build/
+dist/
+
+# File types
+*.svg
+*.png
+*.jpeg
+*.json
+**/*.css
+*.tsbuildinfo
+/*.js
+/*.cjs
+/*.mjs

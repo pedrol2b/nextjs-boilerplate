@@ -1,0 +1,61 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+/node_modules/
+.pnp.*
+.yarn/install-state.gz
+
+# Testing
+/coverage/
+
+# Debug logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lock files
+/package-lock.json
+
+# Local environment files
+.env
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+/next-env.d.ts
+
+# Production
+/build
+
+# Next.js
+/.next/
+/out/
+
+# Vercel
+/.vercel
+
+# Metro bundler
+.metro-health-check*
+
+# Sitemap
+public/robots.txt
+public/sitemap.xml
+public/sitemap-*.xml
+
+# Cache
+.swc/
+
+# Misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# VSCODE
+/.vscode
+
+# commitizen
+.cz.json
+
+# Bundle artifacts
+*.jsbundle

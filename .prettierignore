@@ -1,0 +1,9 @@
+# Directories
+node_modules/
+coverage/
+build/
+dist/
+
+# File types
+*.svg
+*.tsbuildinfo
